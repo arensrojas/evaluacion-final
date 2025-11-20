@@ -1,4 +1,5 @@
 # Proyecto de portafolio - Módulo 2
+Versión 1.0.0
 
 Desarrollar la primera versión del frontend de una aplicación de clima, aplicando **HTML5 semántico**, **Bootstrap** para estilos y **diseño responsivo**, y **JavaScript** básico para la interacción. El trabajo se versiona en **Git/GitHub** e incluye un **README** descriptivo.
 
