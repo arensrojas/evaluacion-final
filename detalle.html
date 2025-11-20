@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle de la localidad</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Bootstrap JS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Mi JS -->
+    <script defer src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">El Tiempo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./detalle.html">Detalle</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-4">
+      <section class="row">
+        <div class="col col-lg-8">
+          <h1>El tiempo en:</h1>
+          <!-- Card horizontal start -->
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div
+                class="col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-brightness-high" style="font-size: 90px"></i>
+              </div>
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h2 class="card-title">Santiago</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soleado</li>
+                    <li class="list-group-item">Temperatura: 30°C</li>
+                    <li class="list-group-item">Humedad: 10%</li>
+                    <li class="list-group-item">Viento: 6 km/h</li>
+                  </ul>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Última actualización hace 3 minutos</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card horizontal end -->
+        </div>
+
+        <div class="col col-lg-4">
+          <h3>Pronóstico semanal</h3>
+
+          <!-- Card pronóstico -->
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Lunes: 23°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Martes: 22°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-cloud-sun"></i> Miércoles: 21°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Jueves: 24°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Viernes: 24°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Sábado: 24°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Domingo: 24°C
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link px-2 text-body-secondary"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="./detalle.html" class="nav-link px-2 text-body-secondary"
+            >Detalle</a
+          >
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2025 Bootcamp Front End</p>
+    </footer>
+  </body>
+</html>
