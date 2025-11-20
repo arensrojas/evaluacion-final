@@ -13,6 +13,10 @@ Al hacer click en una de las localidades, te llevará a una vista de detalle mos
 
 - Ejemplo de uso de JS 1: Navegación desde card
 
+
+# enlace al proyecto:
+https://github.com/arensrojas/evaluacion-final
+
 ```js
 cardLinks.forEach(function (link) {
   link.addEventListener('click', function () {
@@ -31,4 +35,8 @@ links.forEach(function (link) {
     link.classList.remove('active');
   }
 });
+
+
+
+
 ```
